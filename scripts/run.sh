@@ -1,2 +1,3 @@
 #!/bin/bash
-target/release/axum_template
+PROJECT_NAME=$(basename "$(pwd)")
+target/release/$PROJECT_NAME
